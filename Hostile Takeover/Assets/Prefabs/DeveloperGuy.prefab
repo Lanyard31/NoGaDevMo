@@ -3102,7 +3102,7 @@ Transform:
   m_GameObject: {fileID: 6547337612262980991}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6603586, y: -0.50000095, z: -2.9867535}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3137,10 +3137,10 @@ Animator:
   m_GameObject: {fileID: 6547337612262980991}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 318840a7e38980943bb4c508fa842265, type: 3}
-  m_Controller: {fileID: 9100000, guid: 3197541a40dcc184c81a7c74a43b81a7, type: 2}
+  m_Controller: {fileID: 9100000, guid: e8ff47342c8095c42ba9fac34ab4a1c3, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -3241,7 +3241,7 @@ MonoBehaviour:
   PlayerID: Player1
   CharacterAnimator: {fileID: 6767938111938286557}
   UseDefaultMecanim: 1
-  RunAnimatorSanityChecks: 0
+  RunAnimatorSanityChecks: 1
   DisableAnimatorLogs: 1
   CharacterModel: {fileID: 5850048714135062729}
   CharacterHealth: {fileID: 4122997650813326355}
@@ -3347,11 +3347,11 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  RotationMode: 0
+  RotationMode: 3
   CharacterRotationAuthorized: 1
   ShouldRotateToFaceMovementDirection: 1
-  MovementRotationSpeed: 0
-  MovementRotatingModel: {fileID: 0}
+  MovementRotationSpeed: 1
+  MovementRotatingModel: {fileID: 5850048714135062729}
   RotateToFaceMovementDirectionSpeed: 10
   AbsoluteThresholdMovement: 0.5
   ModelDirection: {x: 0, y: 0, z: 0}
@@ -3649,7 +3649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01754710d9f92ec4d9a21b81f5682667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Model: {fileID: 0}
+  Model: {fileID: 5850048714135062729}
   CurrentHealth: 100
   Invulnerable: 0
   InitialHealth: 10
@@ -3680,7 +3680,7 @@ MonoBehaviour:
   UseMaterialPropertyBlocks: 0
   MasterHealth: {fileID: 0}
   TargetDamageResistanceProcessor: {fileID: 0}
-  TargetAnimator: {fileID: 0}
+  TargetAnimator: {fileID: 6767938111938286557}
   DisableAnimatorLogs: 1
 --- !u!114 &2779661037148417404
 MonoBehaviour:
