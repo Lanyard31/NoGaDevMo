@@ -47,12 +47,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WeaponName: ZombieSlap
   WeaponCurrentlyActive: 1
-  InputAuthorized: 1
+  InputAuthorized: 0
   TriggerMode: 1
-  DelayBeforeUse: 1.06
-  DelayBeforeUseReleaseInterruption: 0
-  TimeBetweenUses: 1.06
-  TimeBetweenUsesReleaseInterruption: 1
+  DelayBeforeUse: 0
+  DelayBeforeUseReleaseInterruption: 1
+  TimeBetweenUses: 2.4
+  TimeBetweenUsesReleaseInterruption: 0
   UseBurstMode: 0
   BurstLength: 3
   BurstTimeBetweenShots: 0.1
@@ -74,9 +74,9 @@ MonoBehaviour:
   WeaponShouldFlip: 1
   LeftHandHandle: {fileID: 0}
   RightHandHandle: {fileID: 0}
-  ModifyMovementWhileAttacking: 0
+  ModifyMovementWhileAttacking: 1
   MovementMultiplier: 0
-  PreventAllMovementWhileInUse: 0
+  PreventAllMovementWhileInUse: 1
   PreventAllAimWhileInUse: 0
   RecoilForce: 0
   Animators: []
@@ -84,12 +84,12 @@ MonoBehaviour:
   MirrorCharacterAnimatorParameters: 0
   WeaponAnimationID: 0
   IdleAnimationParameter: 
-  StartAnimationParameter: Attack
+  StartAnimationParameter: 
   DelayBeforeUseAnimationParameter: 
-  SingleUseAnimationParameter: 
+  SingleUseAnimationParameter: Attack
   UseAnimationParameter: 
   DelayBetweenUsesAnimationParameter: 
-  StopAnimationParameter: 
+  StopAnimationParameter: Idle
   ReloadStartAnimationParameter: 
   ReloadAnimationParameter: 
   ReloadStopAnimationParameter: 
@@ -109,14 +109,14 @@ MonoBehaviour:
   Flipped: 0
   MeleeDamageAreaMode: 0
   DamageAreaShape: 2
-  AreaOffset: {x: 0, y: 1, z: 0.5}
-  AreaSize: {x: 1, y: 1.5, z: 1.2}
+  AreaOffset: {x: 0, y: 1, z: 1}
+  AreaSize: {x: 1.2, y: 1.5, z: 2}
   TriggerFilter: 195
   HitDamageableFeedback: {fileID: 0}
   HitNonDamageableFeedback: {fileID: 0}
   ExistingDamageArea: {fileID: 0}
-  InitialDelay: 0.2
-  ActiveDuration: 1
+  InitialDelay: 1.06
+  ActiveDuration: 0.2
   TargetLayerMask:
     serializedVersion: 2
     m_Bits: 1024
