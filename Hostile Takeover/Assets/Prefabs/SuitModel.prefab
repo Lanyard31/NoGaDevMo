@@ -11985,6 +11985,7 @@ GameObject:
   - component: {fileID: 1074874220}
   - component: {fileID: 245366304}
   - component: {fileID: 1309565609128952186}
+  - component: {fileID: 5237728757408735092}
   m_Layer: 0
   m_Name: Abilities
   m_TagString: Untagged
@@ -12482,6 +12483,40 @@ MonoBehaviour:
   CameraInterpolationSpeed: 0.2
   InputAuthorized: 0
   AutoSetupInputManager: 1
+--- !u!114 &5237728757408735092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401813651863105675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b56d00552d6cd44b46000232e9d83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbilityStartSfx: {fileID: 0}
+  AbilityInProgressSfx: {fileID: 0}
+  AbilityStopSfx: {fileID: 0}
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  BlockingWeaponStates: 
+  PlayerID: Player1
+  MainInventoryName: SuitMainInventory
+  WeaponInventoryName: SuitWeaponInventory
+  HotbarInventoryName: 
+  InventoryTransform: {fileID: 0}
+  WeaponRotationMode: 0
+  AutoPickItems: []
+  AutoPickOnlyIfMainInventoryIsEmpty: 0
+  AutoEquipWeaponOnStart: {fileID: 0}
+  AutoEquipOnlyIfMainInventoryIsEmpty: 0
+  AutoEquipOnlyIfEquipmentInventoryIsEmpty: 0
+  AutoEquipOnRespawn: 1
+  CharacterHandleWeapon: {fileID: 0}
 --- !u!1 &1608065481435539362
 GameObject:
   m_ObjectHideFlags: 0
@@ -77414,7 +77449,7 @@ PrefabInstance:
     - target: {fileID: 5186998267329052271, guid: 10d98dae0b0d6d24e8e4937d15d3dd34,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5571687073658527989, guid: 10d98dae0b0d6d24e8e4937d15d3dd34,
         type: 3}
@@ -77523,7 +77558,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1352675970548224101}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38e070f8d39696f4ea2d559622f8babb, type: 3}
   m_Name: 
