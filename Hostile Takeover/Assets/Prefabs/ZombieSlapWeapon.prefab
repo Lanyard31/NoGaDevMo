@@ -121,7 +121,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   MinDamageCaused: 10
-  MaxDamageCaused: 10
+  MaxDamageCaused: 20
   Knockback: 0
   KnockbackForce: {x: 10, y: 2, z: 0}
   KnockbackDirection: 0
