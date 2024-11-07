@@ -368,6 +368,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Door_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1768947436039628, guid: 1d46b704e2c5bc94b94f4b8528cc395b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4108251285165204, guid: 1d46b704e2c5bc94b94f4b8528cc395b, type: 3}
       propertyPath: m_RootOrder
       value: 1242
